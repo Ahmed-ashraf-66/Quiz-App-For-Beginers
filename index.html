@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Quiz App</title>
+</head>
+
+<body class="bg-gray-400/50 relative">
+    <header class="flex justify-between font-bold text-teal-600 p-12">
+        <i class="fa-solid fa-table-cells-large text-xl text-teal-600 mr-2"></i>
+        <p id="category" class="flex w-full">Category : </p>
+        <p id="point" class="w-52"><i class="fa-solid fa-crosshairs"></i> Total Points:</p>
+    </header>
+    <section class=" bg-white/70 p-5 mx-50 rounded-2xl shadow-2xl flex flex-col">
+    </section>
+    <div class="status flex justify-between bg-white/70 p-5 mx-50 rounded-2xl shadow-2xl mt-4">
+        <div class="time">Time Left: <span class=" font-extrabold text-2xl text-teal-600 ml-2"></span> </div>
+        <div class="points p-5 flex flex-col text-center font-bold">Poins: <span class="font-extrabold text-2xl">+10</span></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
